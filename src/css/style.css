@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(243.18deg, rgba(16, 92, 242, 0.152) 15.22%, rgba(0, 0, 0, 0) 100%), #020016;
+    background-size: 200% 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Gradient 15s ease infinite;
+}
+
+i.bi-cloud-lightning-rain-fill{
+    font-size: 10rem;
+    background-image: linear-gradient(to left bottom, #ffbc00, #ffb200, #ffa800, #ff9d00, #ff9300);
+  
+  /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+  background-clip: text;
+  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+
+  /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+  -webkit-text-fill-color: transparent;
+  
+  text-shadow: 0 0 8px #ffbc00, 0 0 20px #ffa800, 0 0 10px #d57c00;
+
+}
+h2, h4{
+  color: white;
+}
+#card{
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+
+  padding: 10px;
+  background: radial-gradient(98.05% 261.61% at 1.95% 3.59%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  backdrop-filter: blur(42px);
+  border-radius: 20px;
+}
+.cx{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes Gradient {
+  0% {
+      background-position: 0% 50%
+  }
+  50% {
+      background-position: 100% 50%
+  }
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+
+
+/*background opções: 252627, 2A2C35*/
+/*text-shadow: 0 0 8px #ffbc00, 0 0 35px #ffa800, 0 0 60px #ff9300;*/
+/*text-shadow: 15px 10px 10px rgba(255, 170, 0, 0.6);*/
