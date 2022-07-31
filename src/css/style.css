@@ -2,20 +2,23 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
 }
 
 body{
     height: 100vh;
-    background: linear-gradient(243.18deg, rgba(16, 92, 242, 0.152) 15.22%, rgba(0, 0, 0, 0) 100%), #020016;
-    background-size: 200% 200%;
-    display: flex;
+    background: linear-gradient(243.18deg, rgba(19, 171, 237, 0.2) 15.22%, rgba(2, 0, 22, 0.2) 100%), #020016;
+
+    
+}
+main{
+  display: flex;
     justify-content: center;
     align-items: center;
-    animation: Gradient 15s ease infinite;
 }
-
 i.bi-cloud-lightning-rain-fill{
-    font-size: 10rem;
+    font-size: 100px;
     background-image: linear-gradient(to left bottom, #ffbc00, #ffb200, #ffa800, #ff9d00, #ff9300);
   
   /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
@@ -28,10 +31,13 @@ i.bi-cloud-lightning-rain-fill{
   text-shadow: 0 0 8px #ffbc00, 0 0 20px #ffa800, 0 0 10px #d57c00;
 
 }
-h2, h4{
-  color: white;
+main{
+  border: 1px solid brown;
 }
 #card{
+  border: 1px solid green;
+  height: 30vh;
+  width: 40%;
   display: flex;
   flex-direction: row;
   column-gap: 60px;
@@ -39,7 +45,7 @@ h2, h4{
   padding: 10px;
   background: radial-gradient(98.05% 261.61% at 1.95% 3.59%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
   backdrop-filter: blur(42px);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .cx{
   display: flex;
@@ -47,20 +53,53 @@ h2, h4{
   justify-content: center;
   align-items: center;
 }
-
-@keyframes Gradient {
-  0% {
-      background-position: 0% 50%
-  }
-  50% {
-      background-position: 100% 50%
-  }
-  100% {
-      background-position: 0% 50%
-  }
+#local{
+  font-size: 18px;
+  position: absolute;
+  font-weight: 500;
 }
+input, button{
+  height: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(42px);
+  border-radius: 10px;
+  border: none;
+}
+.icon{
+  border: 1px solid red;
 
-
+}
+.column{
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+}
+#local{
+  border: 1px solid yellow;
+}
+#clima{
+  font-weight: 600;
+  font-size: 19px;
+}
+#temp{
+  font-weight: 500;
+  font-size: 45px;
+}
+#day, #data{
+  font-weight: 500;
+  font-size: 12px;
+}
+#linha{
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 95%;
+  width: 1px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5%;
+}
 
 /*background opções: 252627, 2A2C35*/
 /*text-shadow: 0 0 8px #ffbc00, 0 0 35px #ffa800, 0 0 60px #ff9300;*/

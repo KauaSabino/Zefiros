@@ -5,24 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Zefiros</title>
 </head>
 <body>
-    <div id="card">
-        <div class="cx">
-            <h2>Tempo Chuvoso</h2>
-            <i class="bi bi-cloud-lightning-rain-fill" id="nuvem"></i>
+    <header>
+        <div id="search-bar">
+            <input type="text" name="" id="input-search" placeholder="Pesquisar Cidade">
+            <button><i class="bi bi-search"></i></button>
         </div>
-        <div class="cx">
-            <h2>Guarulhos, SP</h2>
-            <h2>18 ºC</h2>
-            <h4>Segunda-Feira, 15:14</h4>
-            <h4>18/07/2022</h4>
+    </header>
+    <main>
+        <div id="card">
+
+            <div class="column">
+                <h2 id="local">São Paulo, SP</h2>
+                <div class="icon">
+                    
+                    <i class="bi bi-cloud-lightning-rain-fill" id="nuvem"></i>
+                </div>
+                <div class="cx">
+                    <h2 id="clima">Tempo Chuvoso</h2>
+                    <h2 id="temp"></h2>
+                    <h4 id="day">Segunda-Feira, 15:14</h4>
+                    <h4 id="data">18/07/2022</h4>
+                </div>
+            </div>
+                <hr id="linha">
+            <div class="column">
+                <div id="grid">
+                    <div class="grid-item">
+                        <span>Umidade:</span>
+                        <h6>50%</h6>
+                    </div>
+                    <div class="grid-item">
+                        <span>Vento:</span>
+                        <h6>50%</h6>
+                    </div>
+                    <div class="grid-item">
+                        <span>Amanhecer:</span>
+                        <h6>50%</h6>
+                    </div>
+                    <div class="grid-item">
+                        <span>Anoitecer:</span>
+                        <h6>50%</h6>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-    </div>
     
-    <script src="./src/js/script.js"></script>
+    </main>
+    
+    <script type="module" src="./src/js/script.js"></script>
+    <script type="module" src="./src/js/import.js"></script>
     <script>
 
         
