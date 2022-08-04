@@ -8,8 +8,6 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(243.18deg, rgba(19, 171, 237, 0.2) 15.22%, rgba(2, 0, 22, 0.2) 100%), #020016;
-
     
 }
 main{
@@ -53,7 +51,7 @@ main{
   justify-content: center;
   align-items: center;
 }
-#local{
+#city{
   font-size: 18px;
   position: absolute;
   font-weight: 500;
@@ -74,7 +72,7 @@ input, button{
   display: flex;
   flex-direction: row;
 }
-#local{
+#city{
   border: 1px solid yellow;
 }
 #clima{
@@ -85,7 +83,7 @@ input, button{
   font-weight: 500;
   font-size: 45px;
 }
-#day, #data{
+#day, #date{
   font-weight: 500;
   font-size: 12px;
 }
