@@ -1,4 +1,4 @@
-import {dados} from './script.js';
+import {dados} from './connect.js';
 
 let city = dados.results.city
 let temp = String(dados.results.temp);

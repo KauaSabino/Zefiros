@@ -1,0 +1,125 @@
+<i class="bi bi-cloud-moon-fill"></i> Lua com nuvem preenchida
+<i class="bi bi-cloud-moon"></i> Lua com nuvem vazia
+<i class="bi bi-moon-fill"></i> Lua
+
+<i class="bi bi-sun-fill"></i> Sol
+<i class="bi bi-cloud-sun-fill"></i> Sol com nuvem preenchida
+<i class="bi bi-cloud-sun"></i> Sol com nuvem vazia
+
+<i class="bi bi-cloud-lightning-rain-fill"></i> Chuva com Raio preenchida
+<i class="bi bi-cloud-lightning-rain"></i> Chuva com Raio vazia
+
+<i class="bi bi-cloud-drizzle-fill"></i> Garoa fraquinha
+<i class="bi bi-cloud-rain-fill"></i> Chuvinha
+<i class="bi bi-cloud-rain-heavy-fill"></i> Chuva
+
+<i class="bi bi-snow2"></i> Neve
+
+<i class="bi bi-cloud-fill"></i> Nuvem preenchida
+<i class="bi bi-cloud"></i> Nuvem vazia
+
+<i class="bi bi-tornado"></i> Tornado
+<i class="bi bi-wind"></i> Vento
+
+
+
+
+
+
+"Estrelado",
+
+"Serviço não disponível",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"Tempestade forte",
+"Tempestade tropical",
+"Tempestades severas",
+"Tempestades",
+"Tempestades isoladas",
+"Tempestade com neve",
+
+"Chuviscos",
+"Misto chuva e granizo",
+"Chuva",
+"Misto chuva e gelo",
+"Misto de neve e chuva",
+"Alguns chuviscos",
+"Misto neve e gelo",
+"Trovoadas dispersas",
+"Chuvas esparsas",
+
+"Furacão",
+
+"Neve",
+"Geada fina",
+"Congelamento chuva",
+"Neve baixa",
+
+"Ventania com neve",
+
+"Granizo",
+"Gelo",
+"Poeira",
+"Neblina",
+
+"Fumacento",
+"Vento acentuado",
+"Ventania",
+"Tempo frio",
+"Tempo nublado",
+"Tempo limpo",
+"Parcialmente nublado",
+
+"Estrelado",
+
+"Ensolarado com muitas nuvens",
+"Ar quente",
+"Ensolarado",
+"Sol com poucas nuvens",
+
+"Neve pesada",
+"Queda de neve",
+"Pesados neve",
+"Chuviscos com neve",
+
+
+
+
+"Serviço não disponível",

@@ -7,7 +7,9 @@ function getApi(url){
     
 }
 
-let data = getApi("https://api.hgbrasil.com/weather?format=json-cors&key=4f62a9e8&city_name=Guarulhos")
+let data = getApi("https://api.hgbrasil.com/weather?format=json-cors&key=4f62a9e8&user_ip=remote")
 let dados = JSON.parse(data);
 console.log(dados);
 export {dados};
+
+
